@@ -1,9 +1,8 @@
 # 🔮 Obsidian cheat sheet and shortcut keys 
-*This repository contains all the basic cheatsheets you need to get started to make notes in [obsidian](https://obsidian.md/). If something's missing, add yours by raising an issue here :)*
+*This repository contains some basic markdown syntax and keyboard shortcuts you need to get started to make notes in [obsidian](https://obsidian.md/). If something's missing, add yours by raising an issue here :)*
 
-> I am using the [Things theme](https://github.com/colineckert/obsidian-things) for this tutorial.
 ### Quick Tips
-- To Search for a specific note: Use Ctrl + P (Cmd + P on Mac).
+- To Search for a specific command: Use Ctrl + P (Cmd + P on Mac).
 - For Internal Links: Use `[[note name]]` to create internal links to other notes.
 - For External Links: Use `[Text](URL)` to create external links.
 - For Bullet Points: Use `-`, `*`, or `1`.
@@ -11,181 +10,176 @@
 - For Code Blocks: Wrap text in triple backticks `(```)`.
 - For Embeds: Use `![[note name]]` to embed another note in your current note.
 
----
-
-### [Check the full cheatsheet here](https://github.com/ieshreya/Obsidian-Cheat-Sheet/blob/main/cheatsheet.md)
-
-Word Formatting, Lists & Blockquotes  | Links, Code Blocks, Tables & Footnotes |
-| - | - |
-![image](https://github.com/user-attachments/assets/3127cf70-2e9b-4e51-b004-c31c7d59b007)         |          ![image](https://github.com/user-attachments/assets/9e8d23cb-465e-4e96-9df3-ed3aa9a64174)
-
-
 --- 
 
-<h2>💻 Markdown Syntax </h2>
-
-
-<em><strong>Quick Overview</em></strong> 
-  
-  ``` 
-# Heading 1
-
-## Heading 2
-
---- Spacer  
-
-- Bullet Points
-
-- [x] Checklist
-
-**Bold**
-
-*Italic*
-
-***Italic Bold***
-
-==Highlights==
-
-```Coding Blocks```
-
-[[Links]](Sources)
-
-> Quotes/ Blockquotes
-
-Table Cell A  |  Table Cell B
-----          |          ----
-
-```
-<em><strong>✨ Detailed Cheat Sheet </em></strong>
-
-# Heading 1
- 
+# Markdown Syntax
+## Heading 1
 ```
 # Heading 1
 ```
-
-
 ## Heading 2
-
 ```
 ## Heading 2
 ```
+### Heading 3
+```
+### Heading 3
+```
+#### Heading 4
+```
+#### Heading 4
+```
+##### Heading 5
+```
+##### Heading 5
+```
+###### Heading 6
+```
+###### Heading 6
+```
 
-**Line Break**
+## Line Break
 
 ```
 ---
 ```
+___
 
-- Bullet Points
+## Bullet Points
 
 ``` 
 - Bullet 
 ```
+ - Bullet 1
+ - Bullet 2
 
-
-- [X] Checklist
+## Checklist
 
 ```
 - [x] list 
 ```
+- [x] Checklist
 
-**Bold**
-
-```
-**text**
-```
-
-*Italic*
+## Bold
 
 ```
-*text*
+**bold text**
 ```
+**bold text**
 
-***Italic Bold***
+## *Italic*
 
 ```
-***text***
+*italic text*
 ```
+*italic text*
 
-~~Strikethrough~~
+## ***Italic Bold***
+
+```
+***bold italic text***
+```
+***bold italic text***
+
+## ~~Strikethrough~~
 
 ```
 ~~this text is crossed out~~
 ```
+~~this text is crossed out~~
 
-**==Highlights==**
+## **==Highlights==**
 
 ```
 ==this text is highlighted==
 ```
+==this text is highlighted==
 
-
-**```Code Blocks```**
+## ```Code Blocks```
 
 ```
 By putting 3 (```) signs before and after the code.
 ``` code ```
 ```
 
-**[[Links]]**
+## Links
 
+### Internal links
 ```
-[link](sources)
+[[page-title]]
 ```
 
-Blockquotes
-> Quotes/ Blockquotes
+[[page-title]]
+
+### External links
+```
+[text](url)
+```
+
+[🔍 google link](www.google.com)
+
+## Blockquotes
 
 ```
 > this is a quote.
 ```
+>this is a quote.
 
-
-Tables
-
-
-Table Cell A  |  Table Cell B
-----          |          ----
-
+## Tables
 
 ```
 
-| Table Cell A  |  Table Cell B |
-----          |          ----
+Table Heading Cell A  |  Table Heading Cell B 
+---- | ----
+item | item
 
 ```
+| Table Heading Cell A | Table Heading Cell 2 |
+| -------------------- | -------------------- |
+| item 1               | item 2               |
 
----
-
-
-### 🕹️ General & Editing Shortcuts
-
-| Shortcut Key (General) | Functions | Shortcut Key (Editing) | Functions |
-|---|---|---|---|
-| Ctrl + S | Editor: Saves the file | Ctrl + B | Bold Selected Text |
-| Ctrl + N | Creates a new note | Ctrl + I | Italicize Selected Text |
-| Ctrl + P | Open command pallete | Ctrl + K | Insert External Link to Selected Text |
-| Ctrl + O | Opens Quick Switcher | Ctrl + ] | Indent |
-| Ctrl + Shift + F | Search in all files | Ctrl + [ | Unindent |
-| Ctrl + G | Opens graph view | Ctrl + D | Delete current line |
-| Ctrl + Alt + ← | Navigate Back | Ctrl + V | Duplicate current line |
-| Ctrl + Alt + → | Navigate forth | Ctrl + Click | Open Note in Current Panel via Link |
-| Ctrl + F | Searches current file | Ctrl + Shift + Click | Open Note in New Panel via Link |
-| Ctrl + H | Find/Replace in current file |Ctrl + P (Cmd + P on Mac) | Quick Search |
-| Ctrl + E | Toggle edit/preview modes | Ctrl + N (Cmd + N on Mac) | New Note |
-| Ctrl + , | Open Settings | Ctrl + Shift + D (Cmd + Shift + D on Mac) | Create a Daily Note |
-| Ctrl + Tab | Next tab | Ctrl + / (Cmd + / on Mac) | Toggle Command Palette |
-| Ctrl + Shift + Tab | Previous tab | Ctrl + E (Cmd + E on Mac) | Open Graph View |
-| Alt + Tab | Next App |  Ctrl + Click (Cmd + Click on Mac) | Open Link in New Pane |
-| Alt + Shift + Tab | Previous App | | |
-| Win + Tab | Task View | | |
-| Win + Shift + Tab | Next Window | | |
+ ---
 
 
+# Keyboard Shortcuts 
 
-### You've reached the end now. Hope this helps!
+## Keyboard Shortcuts (Mac)
 
-<a href='https://ko-fi.com/C1C73CUZM' target='_blank'><img height='38' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+| Shortcut Key (General)          | Functions                    | Shortcut Key (Editing) | Functions                             |
+| ------------------------------- | ---------------------------- | ---------------------- | ------------------------------------- |
+| ⌘ + S                           | Editor: Saves the file       | ⌘ + B                  | Bold Selected Text                    |
+| ⌘ + N                           | Creates a new note           | ⌘ + I                  | Italicize Selected Text               |
+| ⌘ + P                           | Open command pallete         | ⌘ + K                  | Insert External Link to Selected Text |
+| ⌘ + O                           | Opens Quick Switcher         | ⌘ + /                  | Toggle Comment                        |
+| ⌘ + Sfhift + F                  | Search in all files          | ⌘ + L                  | Toggle checkbox status                |
+| ⌘ + F                           | Searches current file        | Tab                    | Indent                                |
+| ⌘ + G                           | Opens graph view             | Shift + Tab            | Unindent                              |
+| ⌘ + ⌥ + ←                       | Navigate Back                | ⌘ + N                  | New Note                              |
+| ⌘ + ⌥ + →                       | Navigate forth               | ⌘ + T                  | New tab                               |
+| ⌘ + H                           | Find/Replace in current file | ⌘ + Enter              | Open Note in New Panel via Link       |
+| ⌘ + E                           | Toggle edit/preview modes    | ⌘ + D                  | Delete paragraph                      |
+| ⌘ + ,                           | Open Settings                | ⌥ + Enter              | Follow link under cursor              |
+| ^ + Tab / ⌘ + Shift + ]         | Next tab                     | ⌘ + E                  | Toggle reading view                   |
+| ^ + Shift + Tab / ⌘ + Shift + [ | Previous tab                 | F2                     | Rename file                           |
 
- 
+
+## Keyboard Shortcuts (Windows)
+
+| Shortcut Key (General)            | Functions                    | Shortcut Key (Editing)            | Functions                             |
+| --------------------------------- | ---------------------------- | --------------------------------- | ------------------------------------- |
+| Ctrl + S                          | Editor: Saves the file       | Ctrl + B                          | Bold Selected Text                    |
+| Ctrl + N                          | Creates a new note           | Ctrl + I                          | Italicize Selected Text               |
+| Ctrl + P                          | Open command pallete         | Ctrl + K                          | Insert External Link to Selected Text |
+| Ctrl + O                          | Opens Quick Switcher         | Ctrl + ]                          | Indent                                |
+| Ctrl + Shift + F                  | Search in all files          | Ctrl + [                          | Unindent                              |
+| Ctrl  + G                         | Opens graph view             | Ctrl + D                          | Delete current line                   |
+| Ctrl + Alt + ←                    | Navigate Back                | Ctrl + V                          | Duplicate current line                |
+| Ctrl + Alt + →                    | Navigate forth               | Ctrl + Click                      | Open Note in Current Panel via Link   |
+| Ctrl + F                          | Searches current file        | Ctrl + Shift + Click              | Open Note in New Panel via Link       |
+| Ctrl + H                          | Find/Replace in current file | Ctrl + N                          | New Note                              |
+| Ctrl + E                          | Toggle edit/preview modes    | Ctrl + /                          | Toggle Command Palette                |
+| Ctrl + ,                          | Open Settings                | Ctrl + E                          | Open Graph View                       |
+| Ctrl + Tab                        | Next tab                     | Ctrl + Click                      | Open Link in New Pane                 |
+| Ctrl + Shift + Tab                | Previous tab                 | Win + Tab                         | Task View                             |
+| Alt + Tab                         | Next App                     | Win + Shift + Tab                 | Next Window                           |
+| Alt + Shift + Tab                 | Previous App                 |                                   |                                       |
