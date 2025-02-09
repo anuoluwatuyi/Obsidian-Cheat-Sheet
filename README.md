@@ -1,5 +1,5 @@
 # 🔮 Obsidian cheat sheet and shortcut keys 
-*This repository contains some basic markdown syntax and keyboard shortcuts for mac and windows you need to get started to make notes in [obsidian](https://obsidian.md/). If something's missing, add yours by raising an issue here :)*
+*This repository contains some basic markdown syntax and keyboard shortcuts for mac and windows you need to get started to make notes in [obsidian](https://obsidian.md/).*
 
 ### Quick Tips
 - To Search for a specific command: Use Ctrl + P (Cmd + P on Mac).
